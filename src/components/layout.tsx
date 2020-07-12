@@ -229,7 +229,7 @@ const Layout = ({ children, color }: LayoutProps) => {
               justifyContent="space-between"
             >
               <Box width={['3rem', '4rem', '5rem', '6rem']}>
-                <Link to="/" aria-label="LekoArts, Back to Home">
+                <Link to="/" aria-label="Back to Home">
                   <Logo />
                 </Link>
               </Box>
