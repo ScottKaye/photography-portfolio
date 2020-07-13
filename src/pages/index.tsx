@@ -37,7 +37,7 @@ const Project = styled(GridItem)`
 			}
 		}};
 	height: 70vh;
-	min-width: 400px;
+	min-width: 300px;
 `;
 
 const Index: React.FunctionComponent<PageProps> = ({ data: { projects } }) => {
