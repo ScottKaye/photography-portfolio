@@ -24,15 +24,6 @@ type PageProps = {
 const Area = styled(animated.div)`
 	display: flex;
 	flex-wrap: wrap;
-
-	@media (max-width: ${(props) => props.theme.breakpoints[3]}) {
-	}
-
-	@media (max-width: ${(props) => props.theme.breakpoints[1]}) {
-	}
-
-	@media (max-width: ${(props) => props.theme.breakpoints[0]}) {
-	}
 `;
 
 const Project = styled(GridItem)`
@@ -46,6 +37,7 @@ const Project = styled(GridItem)`
 			}
 		}};
 	height: 70vh;
+	min-width: 400px;
 `;
 
 const Index: React.FunctionComponent<PageProps> = ({ data: { projects } }) => {
