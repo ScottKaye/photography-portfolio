@@ -24,6 +24,7 @@ type PageProps = {
 const Area = styled(animated.div)`
 	display: flex;
 	flex-wrap: wrap;
+	background: #000;
 `;
 
 const Project = styled(GridItem)`

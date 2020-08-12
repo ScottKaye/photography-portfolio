@@ -22,8 +22,9 @@ type PageProps = {
 
 const Area = styled(animated.div)`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-auto-rows: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 50vh;
+  background: #000;
 
   @media (max-width: ${(props) => props.theme.breakpoints[2]}) {
     grid-template-columns: 1fr;
